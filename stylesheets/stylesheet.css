@@ -1,0 +1,155 @@
+body {
+  box-sizing: border-box;
+  color:#373737;
+  background: #212121;
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+header a {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+section h1 {
+  margin-top: 150px;
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  text-shadow: #111 0px 0px 10px;
+  text-align: center;
+}
+section h1 span{
+  font-size: .8em;
+  color: #1FB8E5;
+}
+section input{
+  width:80%;
+  margin: 0px auto;
+  display: block;
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 4px;
+  border: 0;
+  transition : .27s all;
+}
+footer{
+  position: fixed !important;
+  bottom: 0;
+  right: 0;
+  padding-right: 15px;
+  display: inline-block;
+}
+footer p{
+  color: #A9A9A9;
+  display: inline-block;
+}
+footer p a{
+  color:#EEE;
+  padding-left:5px;
+}
+footer ul{
+  display:block;
+  float:right;
+}
+footer ul li{
+  list-style:none;
+  display:inline-block;
+  padding-left:10px;
+}
+footer ul li a{
+  color:#EEE;
+}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; cursor: pointer; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.calc{
+  border: 6px solid #1790C5;
+  transition : .27s all;
+}
+
+.formulaActionWindow{
+    width: 800px;  
+    height: 400px;
+    z-index: 9999;
+    background-color: #FFF;
+    position: absolute;
+    top: 20%;
+    transform: translateX(34%);
+    display: none;
+}
+.formulaActionWindow h2{
+    margin: 0;  
+    padding: 10px 20px;
+    background-color: #EEE;
+}
+@media (min-width: 680px) and (max-width: 700px){
+	section h1 { 
+	width: 80%;
+}
+ section h1 span{ 
+	display: inherit;
+	width: 90%;
+    padding-left: 25px;
+}
+section input{
+	width: 60%;
+	margin-right: 30%;	
+	display: block;
+}
+}
+@media (min-width: 310px) and (max-width: 680px){
+	section h1 { 
+  margin-left:  10px;
+  font-size: 40px;  
+	width: 55%;
+  display: inherit;
+}
+ section h1 span{ 
+  margin-left: 30px;
+	display: inherit;
+	width: 90%;
+  font-size: 30px;
+}
+section input{
+	width: 45%;
+	margin-left: 55px;
+}
+}
+@media (min-width: 50px) and (max-width: 340px){
+	section h1 { 
+	width: 30%;
+	padding-left: 20px;
+	font-size: 30px;
+}
+ section h1 span{ 
+	display: inherit;
+	width: 90%;
+	font-size: 25px;
+}
+section input{
+	width: 30%;
+	margin-left: 10px;   
+}
+}

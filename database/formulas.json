@@ -1,0 +1,26 @@
+[
+	{
+		"title":"Area of Circle",
+		"expr_get":["radius"],
+		"expr_out":["area"],
+		"formula":""
+	},
+	{
+		"title":"Radius of Circle",
+		"expr_get":["area"],
+		"expr_out":["radius"],
+		"formula":""
+	},
+	{
+		"title":"Circumference of Circle",
+		"expr_get":["radius"],
+		"expr_out":["circumference"],
+		"formula":""
+	},
+	{
+		"title":"dummy",
+		"expr_get":["a","b","c"],
+		"expr_out":["x","y","z"],
+		"formula":""
+	}
+]
